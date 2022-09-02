@@ -27,3 +27,6 @@ insert into AddressBook (FirstName,LastName,Address,City,State,Zip,PhoneNumber,E
 values ('Suraj','Gupta','Bandra','Mumbai','Maharashtra',441201,'8698563235','surajgupta@gmail.com');
 
 update addressbook set PhoneNumber='6586987458' where FirstName='Milan'
+
+
+delete AddressBook where FirstName='suraj'
