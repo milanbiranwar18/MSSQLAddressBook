@@ -30,3 +30,7 @@ update addressbook set PhoneNumber='6586987458' where FirstName='Milan'
 
 
 delete AddressBook where FirstName='suraj'
+
+
+Select count(City), count (State) from Addressbook
+Where  City='Pune' and State='Maharashtra'
